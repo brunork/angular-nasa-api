@@ -2,6 +2,8 @@
 
 ## Get Your API Key
 
+Sign up your API key to access and use APIs available on both NASA API and api.data.gov developer networks.
+
 https://api.nasa.gov/index.html#apply-for-an-api-key
 
 ## Setup you API in the project
