@@ -1,0 +1,6 @@
+<div class="image-of-the-day" *ngIf="content" [style.background]="'url('+dataNasa.hdurl+')'" [style.backgroundSize]="cover">
+    <div class="container">
+        <H1>{{ dataNasa.title }}</H1>
+        <p>{{ dataNasa.explanation }}</p>
+    </div>
+</div>
