@@ -1,4 +1,23 @@
-# Nasa
+# Angular 8 + NASA Api Integration
+
+## Get Your API Key
+
+https://api.nasa.gov/index.html#apply-for-an-api-key
+
+## Setup you API in the project
+Go to `environments/environment.ts` and setup a url of the api
+`
+export const environment = {
+  production: false,
+  url:  'https://api.nasa.gov/planetary/apod?api_key='
+};
+`
+
+Go to `shared/services/home.service.ts` and insert your key.
+
+`
+  private apiKey = 'YOUR_API_KEY_HERE';
+`
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.4.
 
@@ -25,3 +44,5 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+
